@@ -33,7 +33,9 @@ AI-assisted development-time authoring with reviewed bundled questions was recom
 
 ## Working state
 
-Workspace was empty at onboarding and was not a Git repository when checked. Recheck before any future commit rather than claiming documents are committed. Shared Universal config was imported through a filtered project script. No source project was modified.
+Workspace was empty at onboarding. User later created a local Git repository through SourceTree and made the initial commit `cb2d8c2` (`~FIX: First Commit`) on branch `master`; the working tree was clean at last inspection. User provided the intended GitHub URL `https://github.com/HeldenChill/LearningVietnamese`, but no `origin` remote is configured and the commit has not been pushed. Shell connectivity failed through the configured proxy at `127.0.0.1:9`. SourceTree control was stopped after the user pressed Escape; automatic review subsequently rejected further SourceTree inspection until the user explicitly authorizes resuming computer control. Do not claim the repository is published. If user says setup is complete, verify remote, branch and commit state before proceeding.
+
+Shared Universal config was imported through a filtered project script. No source project was modified.
 
 Shared Gemini/Antigravity adapters now exist after an upstream refresh. Their `.agents/skills/` references do not mean those skills have been installed locally; use available session skills and verify paths before invoking them.
 

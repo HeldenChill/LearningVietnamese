@@ -69,3 +69,9 @@ Discussed three content paths: development-time AI drafts with review and bundle
 ## Artifact map and status
 
 All discovery/vision records live under `.cursor/plans/design/` with date prefix `2026-10-22-`: `vietnamese-app-discovery`, `vietnamese-learning-market-research`, `vietnamese-app-vision`, `learning-game-ideas`, `unity-ui-direction`, and `exercises-and-ai-content`. These are notes and proposed designs, not completed software. No implementation plan or app scaffold exists. Fresh audits validate documentation/index consistency, not runtime behavior or educational quality.
+
+## GitHub repository setup continuation
+
+After the initial discovery work, user asked to create and push a new GitHub repository under HeldenChill using SourceTree. SourceTree successfully initialized this existing workspace as a local repository; user then created the first commit `cb2d8c2` (`~FIX: First Commit`) on `master`. At last shell verification, the tree was clean, with 59 tracked files and no remote configured. User supplied `https://github.com/HeldenChill/LearningVietnamese` as the intended repository. This is the planned remote URL, not evidence that it exists, is private, or has received a push.
+
+SourceTree's “Create Repository On Account” path had no available hosting account. Shell `git ls-remote` could not connect because the environment's configured proxy points at unreachable `127.0.0.1:9`. Browser inspection was denied by automatic review; SourceTree UI was later stopped when the user pressed physical Escape. A subsequent SourceTree inspection request was rejected because of that stop. Respect that boundary: continue with SourceTree only after explicit user permission to resume computer control. Do not work around the proxy or claim a successful push. If the user reports they finished setup, inspect local `git remote -v`, branch and status before updating this record.
